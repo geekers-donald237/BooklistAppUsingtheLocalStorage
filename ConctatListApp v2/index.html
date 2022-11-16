@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBookList App</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-4 d-flex flex-column justify-content-around">
+       <div class="container d-flex justify-content-between mb-4 bg-primary rounded-3">
+            <h1 class="display-4  ">
+                <i class="fa fa-book text-white-50"></i>
+                My <span class="text-white-50">Book</span>List
+            </h1>
+            <div class="col-md-6 align-self-center">
+                <input type="text" class="form-control" id="filter" placeholder="Search Books...">
+            </div>
+       </div>
+
+        <form  method="post" id="book-form">
+
+           <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" class="form-control">
+           </div>
+
+           <div class="form-group">
+                <label for="author">Author</label>
+                <input type="text" id="author" class="form-control">
+           </div>
+
+
+           <div class="form-group">
+                <label for="isbn">ISBN#</label>
+                <input type="text" id="isbn" class="form-control">
+            </div>
+            <input type="submit" value="Add Book" class="btn btn-primary btn-block">
+        </form>    
+
+        <table class="table table-striped mt-5"> 
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody id="book-list">
+                
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
